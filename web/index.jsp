@@ -14,7 +14,7 @@
 <body>
 <h1>Registrar Persona</h1>
 <form action="recibir.do" method="POST">
-    Dui: <input type="text" name="txtDui" value="" /><br>
+Dui: <input type="text" name="txtDui" value="" /><br>
 Apellidos: <input type="text" name="txtApellidos" value="" /><br>
 Nombre: <input type="text" name="txtNombres" value="" /><br>
 
