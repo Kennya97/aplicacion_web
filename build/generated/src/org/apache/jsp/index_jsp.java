@@ -53,9 +53,9 @@ public final class index_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("<body>\n");
       out.write("<h1>Registrar Persona</h1>\n");
       out.write("<form action=\"recibir.do\" method=\"POST\">\n");
-      out.write("Dui: <input type=\"text\" name=\"txtDui\" value=\"\" />\n");
-      out.write("Apellidos: <input type=\"text\" name=\"txtApellidos\" value=\"\" />\n");
-      out.write("Nombre: <input type=\"text\" name=\"txtNombres\" value=\"\" />\n");
+      out.write("Dui: <input type=\"text\" name=\"txtDui\" value=\"\" size=\"10\"  required=\"\" /><br>\n");
+      out.write("Apellidos: <input type=\"text\" name=\"txtApellidos\" value=\"\" size=\"35\"  required=\"\" /><br>\n");
+      out.write("Nombre: <input type=\"text\" name=\"txtNombres\" value=\"\" size=\"35\"  required=\"\" /><br>\n");
       out.write("\n");
       out.write("<input type=\"submit\" value=\"Registrar Nueva Persona\" />\n");
       out.write("    \n");
