@@ -12,14 +12,24 @@
 <title>JSP Page</title>
 </head>
 <body>
-<h1>Registrar Persona</h1>
-<form action="recibir.do" method="POST">
-Dui: <input type="text" name="txtDui" value="" /><br>
-Apellidos: <input type="text" name="txtApellidos" value="" /><br>
-Nombre: <input type="text" name="txtNombres" value="" /><br>
-
-<input type="submit" value="Registrar Nueva Persona" />
     
-</form>
+<h1 align="center">Registrar Persona</h1>
+
+<center><form action="recibir.do" method="POST">
+<table border ="0"> 
+<tr>
+<td>Dui: </td><td><input type="text" name="txtDui" value="" size="10"  required="" /></td>
+</tr>
+<tr>
+<td>Apellidos:</td><td><input type="text" name="txtApellidos" value="" size="35"  required="" /></td>
+</tr>
+<tr>
+<td>Nombre: </td><td><input type="text" name="txtNombres" value="" size="35"  required="" /></td>
+</tr>
+<tr>
+<td><input type="submit" value="Registrar Nueva Persona" /></td>
+</tr>
+</table>
+</form></center>
 </body>
 </html>
