@@ -30,6 +30,7 @@
 <td><input type="submit" value="Registrar Nueva Persona" /></td>
 </tr>
 </table>
-</form></center>
+</form>
+</center>
 </body>
 </html>
