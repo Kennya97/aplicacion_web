@@ -1,35 +1,35 @@
-<%-- 
-    Document   : index
-    Created on : 05-28-2020, 12:05:43 PM
-    Author     : castr
---%>
+
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
 <title>JSP Page</title>
 </head>
 <body>
+ <body>
     
 <h1 align="center">Registrar Persona</h1>
 
 <center><form action="recibir.do" method="POST">
-<table border ="0"> 
-<tr>
-<td>Dui: </td><td><input type="text" name="txtDui" value="" size="10"  required="" /></td>
-</tr>
-<tr>
-<td>Apellidos:</td><td><input type="text" name="txtApellidos" value="" size="35"  required="" /></td>
-</tr>
-<tr>
-<td>Nombre: </td><td><input type="text" name="txtNombres" value="" size="35"  required="" /></td>
-</tr>
-<tr>
-<td><input type="submit" value="Registrar Nueva Persona" /></td>
-</tr>
-</table>
+ <div class="form-group">    
+<input class="form-control " placeholder="Dui" type="text" name="txtDui" value=""  required="" />
+</div>
+ 
+<div class="form-group">
+<input class="form-control" placeholder="Apellido" type="text" name="txtApellidos" value="" required="" />
+</div>
+        
+<div class="form-group">  
+<input  class="form-control" placeholder="Nombre" type="text" name="txtNombres" value=""  required="" />
+</div>
+        
+<input type="submit" value="Registrar Nueva Persona" class="btn btn-primary"/>
+
+
 </form>
 </center>
 </body>

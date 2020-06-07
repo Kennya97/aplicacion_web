@@ -18,12 +18,12 @@ ResultSet result;
 
 public Persona(){
 try {
-          Class.forName("com.mysql.jdbc.Driver");//driver de la base de datos
-          cnn = DriverManager.getConnection("jdbc:mysql://localhost:3306/bd_recurso_humano?zeroDateTimeBehavior=convertToNull", "root", ""); //url de laBD, user, pass
+Class.forName("com.mysql.jdbc.Driver");//driver de la base de datos
+cnn = DriverManager.getConnection("jdbc:mysql://localhost:3306/bd_recurso_humano?zeroDateTimeBehavior=convertToNull", "root", ""); //url de laBD, user, pass
 }catch (ClassNotFoundException ex) {
-        Logger.getLogger(Persona.class.getName()).log(Level.SEVERE, null, ex);
-    } catch (SQLException ex) {
-        Logger.getLogger(Persona.class.getName()).log(Level.SEVERE, null, ex);
+Logger.getLogger(Persona.class.getName()).log(Level.SEVERE, null, ex);
+} catch (SQLException ex) {
+Logger.getLogger(Persona.class.getName()).log(Level.SEVERE, null, ex);
 }
 }
 public Persona(String dui, String apellidos, String nombres){
