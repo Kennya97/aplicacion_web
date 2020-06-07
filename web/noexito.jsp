@@ -1,8 +1,3 @@
-<%-- 
-    Document   : noexito
-    Created on : 05-28-2020, 12:50:26 PM
-    Author     : castr
---%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>

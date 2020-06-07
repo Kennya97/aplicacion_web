@@ -23,6 +23,7 @@ processRequest(request, response);
 @Override
 protected void doPost(HttpServletRequest request, HttpServletResponse response)
 throws ServletException, IOException {
+    
 String dui = request.getParameter("txtDui");
 String apellidos =request.getParameter("txtApellidos");
 String nombres = request.getParameter("txtNombres");
@@ -35,7 +36,7 @@ person.setNombres(nombres);
 if(person.insertarDatos() == true){ //RECUERDE QUE ERA BOLEANO
 request.getRequestDispatcher("exito.jsp").forward(request, response);
 }else{
-request.getRequestDispatcher("noexito").forward(request, response);
+request.getRequestDispatcher("noexito.jsp").forward(request, response);
 }
 }
 

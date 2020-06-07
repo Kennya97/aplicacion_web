@@ -10,12 +10,12 @@
 <title>JSP Page</title>
 </head>
 <body>
- <body>
     
 <h1 align="center">Registrar Persona</h1>
 
 <center><form action="recibir.do" method="POST">
- <div class="form-group">    
+        
+<div class="form-group">    
 <input class="form-control " placeholder="Dui" type="text" name="txtDui" value=""  required="" />
 </div>
  
